@@ -1,0 +1,105 @@
+body {
+  background: #fff;
+  font-family: "pretendard";
+}
+
+body.active {
+  background-color: #242621;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a.active {
+  color: #fff;
+}
+
+.head_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+}
+
+.logo {
+  border-radius: 100%;
+}
+
+.header_menu {
+  display: flex;
+}
+
+.header_menu li {
+  padding: 15px;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.header_menu a:hover {
+  color: #9c9899;
+}
+
+.black_moon {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.white_moon {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.main_welcome {
+  text-align: center;
+  margin-bottom: 100px;
+  background: #ced6a1;
+}
+
+.wel_title h1 {
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #4033a1;
+}
+
+.wel_img {
+  border-radius: 100%;
+}
+
+.wel_contents {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.wel_contents p {
+  margin: 10px 0;
+}
+
+.main_info {
+  display: flex;
+  justify-content: center;
+}
+
+.main_selfie {
+  border-radius: 10%;
+  transition: all 2s;
+}
+
+.main_selfie:hover {
+  width: 350px;
+  box-shadow: 5px 5px 5px 5px rgba(150, 150, 150, 0.5);
+}
+
+.main_about {
+  margin: 50px;
+}
+
+.about_me {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ad5eb8;
+}
