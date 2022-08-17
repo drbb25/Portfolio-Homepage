@@ -72,7 +72,7 @@ a.active {
 .wel_contents {
   padding: 20px;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .wel_contents p {
@@ -95,11 +95,33 @@ a.active {
 }
 
 .main_about {
-  margin: 50px;
+  margin: 20px;
 }
 
-.about_me {
-  font-size: 30px;
+.about_title {
+  font-size: 35px;
   font-weight: bold;
   color: #ad5eb8;
+  text-align: center;
+}
+
+.about_content {
+  margin: 0 50px;
+}
+
+.introduce {
+  animation-duration: 3s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
